@@ -46,23 +46,23 @@ ol[class] {
 
 .page-logo{
   position: absolute;
-  padding-top: 50px;
-  padding-left: 200px;
+  padding-top: 1.5rem;
+  padding-left: 120px;
   font-size: 2.6rem;
   font-family: 'Poppins', sans-serif;
-  color: #F55D3A;
+  color: #3D2892;
 }
 
 ul{
   position: absolute;
-  padding-top: 50px;
+  padding-top: 1.5rem;
   font-family: 'Poppins', sans-serif;
   list-style: none;
   display: flex;
   flex-direction: row;
   color: #24126A;
   font-size: 1.8rem;
-  padding-left: 1200px;
+  padding-left: 850px;
 }
 
 li{
@@ -81,21 +81,22 @@ li{
 .pumpkin{
   position: absolute;
   padding-top: 200px;
-  padding-left: 1234px;
+  padding-left: 900px;
   z-index: 1;
 }
 
 .main-title{
+  text-transform: uppercase;
   position: absolute;
   color: #F55D3A;
   font-family: 'Poppins', sans-serif;
   font-size: 6.4rem;
   padding-top: 200px;
-  padding-left: 200px;
+  padding-left: 150px;
 }
 
 t{
-  color: #3D2892;
+  color: #F55D3A;
 }
 
 .message{
@@ -103,7 +104,7 @@ t{
   color: #4A4A4A;
   font-size: 3.2rem;
   padding-top: 300px;
-  padding-left: 200px;
+  padding-left: 150px;
   font-weight: lighter;
 }
 
@@ -114,7 +115,7 @@ button{
   width: 105px;
   height: 45px;
   top: 50px;
-  left: 200px;
+  left: 150px;
   cursor: pointer;
   border: hidden;
   border-radius: 5px;
@@ -132,23 +133,23 @@ button{
   color: #24126A;
   text-align: center;
 
-  padding-top: 150px;
+  padding-top: 140px;
   text-shadow: 0 0 10px #4A4A4A;
   
 }
 
 .paramdam{
   position: absolute;
-  top: 400px;
-  left: 300px;
+  top: 430px;
+  left: 250px;
 }
 
 .paramdam__story-title{
   position: absolute;
   text-shadow: none;
   font-size: 3.2rem;
-  top: 400px;
-  left: 700px;
+  top: 430px;
+  left: 600px;
 }
 
 .paramdam__story{
@@ -158,9 +159,9 @@ button{
   text-shadow: none;
   color: #4A4A4A;
   font-size: 1.8rem;
-  left: 700px;
-  top: 470px;
-  right: 300px;
+  left: 600px;
+  top: 500px;
+  right: 200px;
 }
 
 .paramdam__read-more{
@@ -169,23 +170,24 @@ button{
   text-decoration: none;
   color: #F55D3A;
   text-shadow: 0 0 10px #F55D3A;
-  font-size: 24px;
-  left: 700px;
-  top: 650px;
+  font-size: 1.8rem;
+  left: 600px;
+  top: 725px;
+  font-weight: bold;
 }
 
 .senyales{
   position: absolute;
   top: 1000px;
-  right: 300px;
+  right: 250px;
 }
 
 .senyales__story-title{
   position: absolute;
   text-shadow: none;
   font-size: 3.2rem;
-  top: 1000px;
-  left: 300px;
+  top: 990px;
+  left: 250px;
 }
 
 .senyales__story{
@@ -195,9 +197,9 @@ button{
   text-shadow: none;
   color: #4A4A4A;
   font-size: 1.8rem;
-  left: 300px;
-  top: 1070px;
-  right: 700px;
+  left: 250px;
+  top: 1050px;
+  right: 600px;
 }
 
 .senyales__read-more{
@@ -206,7 +208,118 @@ button{
   text-decoration: none;
   color: #F55D3A;
   text-shadow: 0 0 10px #F55D3A;
-  font-size: 24px;
-  left: 300px;
-  top: 1250px;
+  font-size: 1.8rem;
+  left: 250px;
+  top: 1300px;
+  font-weight: bold;
+}
+
+.authors-container{
+  display: grid;
+  min-height: 90vh;
+  place-content: center;
+}
+
+.authors-top{
+  width: 100%;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 1850px;
+  text-align: center;
+  font-size: 3.2rem;
+  color: #24126A;
+  z-index: 4;
+}
+
+.authors__wrapper{
+  position: relative;
+  top: 1200px;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 90vw;
+}
+
+.authors__wrapper__card{
+  top: 100px;
+  min-width: 25rem;
+  padding: 1rem;
+}
+
+.author-profile{
+  position: relative;
+  display: block;
+     width: 60%;
+     margin: auto;
+}
+
+.author-name{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8rem;
+  color: #F55D3A;
+}
+
+.author-description{
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #4A4A4A;
+}
+
+.waved-footer{
+  position: absolute;
+  z-index: -1;
+  top: 2300px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-title{
+  position: absolute;
+  color: #F55D3A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6.4rem;
+  top: 2520px;
+  left: 150px;
+  z-index: 2;
+}
+
+.email-input{
+  position: absolute;
+  top: 2550px;
+  right: 240px;
+  z-index: 3;
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border-style: hidden;
+  background: #FFFAFB;
+}
+
+.submit-button{
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 2550px;
+  right: 130px;
+  width: 90px;
+  height: 30px;
+  background-color: #3D2892;
+  color: #FFFAFB;
+  border-radius: 5px;
+  border-style: hidden;
+  z-index: 3;
+}
+
+.footer-cpyrght{
+  position: relative;
+  text-align: center;
+  top: 1500px;
+  z-index: 1;
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: #FFFAFB;
 }
