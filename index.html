@@ -14,66 +14,67 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <p class="page-logo"><strong>spook<t>ify.</t></strong></p>
-            <ul>
-                <li>Stories</li>
-                <li>Authors</li>
-                <li>Contact</li>
-                <a href="#" class="sign-up"><b>Sign Up</b></a>
+    <header class="navigation">
+        <nav class="nav-bar">
+            <p class="nav-bar__logo"><strong>spook<t>ify.</t></strong></p>
+            <ul class="nav-bar__list">
+                <li class="nav-bar__list__item">Stories</li>
+                <li class="nav-bar__list__item">Authors</li>
+                <li class="nav-bar__list__item">Contact</li>
+                <a href="#" class="nav-bar__list__sign-up"><b>Sign Up</b></a>
             </ul>
         </nav>
     </header>
     <main>
         <section class="hero">
-            <div>
+            <div class="landing-page">
                 <figure>
-                    <img src="images/landing-image.png" alt="Pumpkin Image" class="pumpkin">
+                    <img src="images/landing-image.png" alt="Pumpkin Image" class="landing-page__pumpkin">
                 </figure>
-                <h1 class="main-title">Tales of the Undead</h1>
+                <h1 class="landing-page__main-title">Tales of the Undead</h1>
                 <br>
                 <br>
-                <h2 class="message">Scare yourself, scare your friends,<br> for all we care</h2>
-                <a href="#" class="sign-up">
-                    <button>
+                <h2 class="landing-page__message">Scare yourself, scare your friends,<br> for all we care</h2>
+                <a href="#" class="landing-page__sign-up">
+                    <button class="landing-page__sign-up__button">
                         Sign Up
                     </button>
                 </a>
             </div>
         </section>
         <section class="stories">
-            <div>
-                <div>
-                    <div>
-                        <h2 class="stories">Top Stories</h2>
-                    </div>
 
-                    <figure>
-                        <img src="images/paramdam.png" alt="Top Story - Paramdam" class="paramdam">
+                <h2 class="stories">Top Stories</h2>
+
+            <div class="stories__top">
+                <div class="stories__top__paramdam">
+                    <div class="stories__top__paramdam--design"></div>
+                    <figure class="stories__top__paramdam__image">
+                        <img src="images/paramdam.png" alt="Top Story - Paramdam" class="stories__top__paramdam__image__file">
                     </figure>
-                    <h3 class="paramdam__story-title">Paramdam</h3>
-                    <p class="paramdam__story">Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
+                    <h3 class="stories__top__paramdam__story-title">Paramdam</h3>
+                    <p class="stories__top__paramdam__story">Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
                         pinto nun, pag bukas ng pinto nakita nya daw si papa naka upo dun sa pwesto nys ng pinag
                         iinuman. Iyak ng iyak ate ko nun, kwento ng lola ko na hindi na rin nakapag tinda dahil sa
                         takot.
                         <br>
                         <br>Kinabukasan, dun na rin ako natulog samin pero sumama pa rin pinsan ko dahil sa takot. </p>
-                    <a href="#" class="paramdam__read-more">Read more...</a>
+                    <a href="#" class="stories__top__paramdam__read-more">Read more...</a>
                 </div>
-                <div>
-                    <figure>
-                        <img src="images/senyales.png" alt="Top Story - Senyales" class="senyales">
+                <div  class="stories__top__senyales">
+                    <div class="stories__top__senyales--design"></div>
+                    <figure class="stories__top__senyales__image">
+                        <img src="images/senyales.png" alt="Top Story - Senyales" class="stories__top__senyales__image__file">
                     </figure>
-                    <h3 class="senyales__story-title">Senyales</h3>
-                    <p class="senyales__story">Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
+                    <h3 class="stories__top__senyales__story-title">Senyales</h3>
+                    <p class="stories__top__senyales__story">Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
                         tinatrabahoan namin at may patay isa nabaril raw. May damage rin ang store na pinagtrabahoan
                         namin. <br>
                         <br>
                         Sobrang kabog ng dibdib ko dahil kung hindi lang ako sinabihan ng mag inang yun, siguro ako yung
                         nabiktima nung gabing yun, laking pasasalamat ko sa mag inang yun, sinubukan ko silang hanapin
                         pero hindi ko mahanap.</p>
-                    <a href="#" class="senyales__read-more">Read more...</a>
+                    <a href="#" class="stories__top__senyales__read-more">Read more...</a>
                 </div>
             </div>
         </section>
@@ -117,15 +118,12 @@
         </section>
         
         <footer>
-            <div>
-                <img src="images/Vector.png" alt="waved-footer" class="waved-footer">
-                <h1 class="footer-title">Dare to Spookify?</h1>
-                <input type="text" placeholder="Enter your Email Address" class="email-input">
-                <input type="submit" value="Spook Us" class="submit-button">
-                <p class="footer-cpyrght">©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
-                <br>
-                <br>
-                <br>
+            <div class="footer">
+                <img src="images/Vector.png" alt="waved-footer" class="footer__waved-bg">
+                <h1 class="footer__title">Dare to Spookify?</h1>
+                <input type="text" placeholder="" class="footer__email-input">
+                <input type="submit" value="Spook Us" class="footer__submit-button">
+                <p class="footer__cpyrght">©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
             </div>
         </footer>
     </main>

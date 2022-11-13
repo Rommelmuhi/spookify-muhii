@@ -44,7 +44,7 @@ ol[class] {
 /* Start Here */
 
 
-.page-logo{
+.nav-bar__logo{
   position: absolute;
   padding-top: 1.5rem;
   padding-left: 120px;
@@ -53,24 +53,24 @@ ol[class] {
   color: #3D2892;
 }
 
-ul{
+.nav-bar__list{
   position: absolute;
-  padding-top: 1.5rem;
+  top: 2.8rem;
   font-family: 'Poppins', sans-serif;
   list-style: none;
   display: flex;
   flex-direction: row;
   color: #24126A;
   font-size: 1.8rem;
-  padding-left: 850px;
+  right: 55px;
 }
 
-li{
+.nav-bar__list__item{
   position: relative;
   padding-right: 4rem;
 }
 
-.sign-up{
+.nav-bar__list__sign-up{
   position: relative;
   color: #24126A;
   text-decoration: none;
@@ -78,14 +78,14 @@ li{
   z-index: 4;
 }
 
-.pumpkin{
+.landing-page__pumpkin{
   position: absolute;
   padding-top: 200px;
   padding-left: 900px;
   z-index: 1;
 }
 
-.main-title{
+.landing-page__main-title{
   text-transform: uppercase;
   position: absolute;
   color: #F55D3A;
@@ -99,7 +99,7 @@ t{
   color: #F55D3A;
 }
 
-.message{
+.landing-page__message{
   font-family: 'Lora', serif;
   color: #4A4A4A;
   font-size: 3.2rem;
@@ -108,13 +108,13 @@ t{
   font-weight: lighter;
 }
 
-button{
+.landing-page__sign-up__button{
   position: absolute;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   width: 105px;
   height: 45px;
-  top: 50px;
+  top: 500px;
   left: 150px;
   cursor: pointer;
   border: hidden;
@@ -138,13 +138,25 @@ button{
   
 }
 
-.paramdam{
+.stories__top__paramdam__image__file{
   position: absolute;
   top: 430px;
   left: 250px;
+  z-index: 2;
 }
 
-.paramdam__story-title{
+.stories__top__paramdam--design{
+  position: absolute;
+  background: #F55D3A;
+  left: 240px;
+  top: 420px;
+  width: 150px;
+  height: 300px;
+  border-radius: .5rem;
+  z-index: 1;
+}
+
+.stories__top__paramdam__story-title{
   position: absolute;
   text-shadow: none;
   font-size: 3.2rem;
@@ -152,7 +164,7 @@ button{
   left: 600px;
 }
 
-.paramdam__story{
+.stories__top__paramdam__story{
   text-align: left;
   position: absolute;
   font-family: 'Lora', serif;
@@ -164,7 +176,7 @@ button{
   right: 200px;
 }
 
-.paramdam__read-more{
+.stories__top__paramdam__read-more{
   position: absolute;
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
@@ -176,13 +188,27 @@ button{
   font-weight: bold;
 }
 
-.senyales{
+.stories__top__senyales__image__file{
   position: absolute;
   top: 1000px;
   right: 250px;
+  z-index: 2;
 }
 
-.senyales__story-title{
+.stories__top__senyales--design{
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  background: #16E0E0;
+  top: 990px;
+  right: 240px;
+  border-radius: .5rem;
+  width: 150px;
+  height: 300px;
+}
+
+.stories__top__senyales__story-title{
   position: absolute;
   text-shadow: none;
   font-size: 3.2rem;
@@ -190,7 +216,7 @@ button{
   left: 250px;
 }
 
-.senyales__story{
+.stories__top__senyales__story{
   text-align: left;
   position: absolute;
   font-family: 'Lora', serif;
@@ -202,7 +228,7 @@ button{
   right: 600px;
 }
 
-.senyales__read-more{
+.stories__top__senyales__read-more{
   position: absolute;
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
@@ -234,6 +260,7 @@ button{
 .authors__wrapper{
   position: relative;
   top: 1200px;
+  left: 50px;
   padding: 1rem 0;
   display: flex;
   align-items: center;
@@ -248,6 +275,8 @@ button{
 }
 
 .author-profile{
+  width: 200px;
+  bottom: 10px;
   position: relative;
   display: block;
      width: 60%;
@@ -268,7 +297,7 @@ button{
   color: #4A4A4A;
 }
 
-.waved-footer{
+.footer__waved-bg{
   position: absolute;
   z-index: -1;
   top: 2300px;
@@ -276,7 +305,7 @@ button{
   width: 100%;
 }
 
-.footer-title{
+.footer__title{
   position: absolute;
   color: #F55D3A;
   font-family: 'Poppins', sans-serif;
@@ -286,7 +315,7 @@ button{
   z-index: 2;
 }
 
-.email-input{
+.footer__email-input{
   position: absolute;
   top: 2550px;
   right: 240px;
@@ -298,7 +327,7 @@ button{
   background: #FFFAFB;
 }
 
-.submit-button{
+.footer__submit-button{
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   position: absolute;
@@ -310,13 +339,14 @@ button{
   color: #FFFAFB;
   border-radius: 5px;
   border-style: hidden;
-  z-index: 3;
+  z-index: 4;
+  cursor: pointer;
 }
 
-.footer-cpyrght{
+.footer__cpyrght{
   position: relative;
   text-align: center;
-  top: 1500px;
+  top: 1530px;
   z-index: 1;
   font-size: 1.8rem;
   font-family: 'Poppins', sans-serif;
