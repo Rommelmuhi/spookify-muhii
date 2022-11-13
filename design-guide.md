@@ -16,3 +16,8 @@
 - Secondary Lighter: #16E0E0
 - Accent: #F55D3A
 
+/* Fonts 
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+
+*/
